@@ -45,7 +45,7 @@ h3{
     padding: 50px 120px 0 200px;
 }
 .banner-content{
-    width: 50%;
+    width: 60%;
     padding: 30px;
 }
 .banner-title{
@@ -53,6 +53,7 @@ h3{
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
+    text-align: left;
 }
 .banner-description{
     padding-bottom: 20px;

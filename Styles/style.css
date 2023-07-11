@@ -1,15 +1,30 @@
+/*Shared Styles Start*/
 *{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.btn-primary{
+    border: none;
+    font-size: 20px;
+    background-color: #E55473;
+    color:white;
+    padding: 20px 43px;
+    border-radius: 10px;
+}
+.section-margin{
+    margin: 50px 200px 0 200px;
+}
+/*Shared Styles End*/
 
+
+/* Banner Section Start*/
 .banner-section{
     background-color: #FDEEF1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 120px 0 120px;
+    padding: 50px 120px 0 200px;
 }
 .banner-content{
     width: 40%;
@@ -25,7 +40,51 @@
     padding-bottom: 20px;
     color: rgba(39, 39, 39, .6);
 }
+/* Banner Section End*/
 
+
+/*Feature Image Section Start */
+.featured-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+    
+}
+.card-img{
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+.card{
+    height: 550px;
+    width: 450px;
+    position: relative;
+    border-radius: 45% 45% 0 0;
+}
+.featured-img1{
+    background-color: rgba(167, 33, 98, .15);
+}
+.featured-img2{
+    background-color: rgba(5, 151, 160, .15);
+}
+.featured-img3{
+    background-color: rgba(71, 125, 17, .15);
+}
+.single-card h2{
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+/*Feature Image Section End */
+
+
+/* Hot Deal Section Start*/
 .hot-deal-section{
     background-color: #FDEEF1;
     margin-top: 100px;
@@ -47,30 +106,40 @@
     color: rgba(39, 39, 39, .6);
 }
 
-.btn-primary{
-    border: none;
-    font-size: 20px;
-    background-color: #E55473;
-    color:white;
-    padding: 20px 43px;
-    border-radius: 10px;
-}
+/* Hot Deal Section End*/
 
-.social-media-section{
-    margin: 50px 120px 0 120px;
+/* Social Media Section Start*/
+
+.social-media-text{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    align-items: center;
 }
+.social-media-text h3{
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.social-media-text p{
+    text-align: center;
+    width: 32%;
+    padding-bottom: 30px;
+}
+.social-media-img{
+    display: flex;
+    gap: 43px;
+    padding-bottom: 30px;
+}
+
+/* Social Media Section End*/
+
 .newsletter{
     background-image: url('../Flower Asset/Rectangle\ 9.png');
     background-size: cover;
-    margin: 50px 120px 0 120px;
     padding: 100px 0 80px 0;
     text-align: center;
 }
 
-.newsletter-content h1{
+.newsletter-content h3{
     padding-bottom: 20px;
     font-size: 35px;
 }

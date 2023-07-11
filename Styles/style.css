@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-section{
+    background-color: #FDEEF1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 0px 135px;
+}
+.banner-content{
+    width: 40%;
+    padding: 30px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    padding-bottom: 20px;
+    color: rgba(39, 39, 39, .6);
+}
+.banner-img{
+    padding-right: 200px;
+}
+
+.hot-deal-section{
+    background-color: #FDEEF1;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.hot-deal-img{
+    padding-right: 300px;
+}
+.btn-primary{
+    border: none;
+    font-size: 20px;
+    background-color: #E55473;
+    color:white;
+    padding: 20px 43px;
+    border-radius: 10px;
+}
